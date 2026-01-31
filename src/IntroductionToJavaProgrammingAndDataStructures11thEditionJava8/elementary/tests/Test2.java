@@ -13,6 +13,7 @@ public class Test2 {
         System.out.println(result);
         System.out.println(n1 + n2 + n3);
 
+        
 
     }
 

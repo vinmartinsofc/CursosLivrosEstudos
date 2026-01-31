@@ -1,40 +1,7 @@
 
-*
-* Leia uma operação (+ - \* /) e dois números, calcule o resultado.
-*
-* Leia um número e informe se ele representa:
-*
-* 1 → Admin
-*
-* 2 → Usuário
-*
-* 3 → Visitante
-*
-* Leia uma nota A, B, C, D ou F e imprima o significado.
-*
-* Leia um número de 1 a 4 e imprima uma estação do ano.
-*
-* Refatore um if/else grande para switch.
+* Leia 5 números e imprima o maior. For07
 
 
-
-
-
-### 3\. Estruturas de repetição (for)
-
-
-
-* Imprima os números de 1 a 10.
-*
-* Imprima os números de 10 a 1.
-*
-* Imprima apenas os números pares de 1 a 100.
-*
-* Calcule a soma de 1 a 100.
-*
-* Leia um número N e imprima sua tabuada.
-*
-* Leia 5 números e imprima o maior.
 *
 * Conte quantos números são positivos em uma sequência.
 *
