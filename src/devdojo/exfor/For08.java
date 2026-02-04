@@ -7,19 +7,15 @@ package devdojo.exfor;
 public class For08 {
     public static void main(String[] args) {
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 11; i++) {
 
-            int randomGenerator = (int) (Math.random() * 100_000);
+            int randomGenerator = (int) (Math.random() * 50) - 10;
 
-            if (randomGenerator % 2 == 0) {
-                System.out.println("Par: " + randomGenerator);
-
+            if (randomGenerator < 0) {
+                System.out.println("Negativo: " + randomGenerator);
             } else {
-                System.out.println("Impar: " + randomGenerator);
+                System.out.println("Positivo: " + randomGenerator );
             }
-
-            System.out.println("Iteração número: " + i);
-
         }
 
     }

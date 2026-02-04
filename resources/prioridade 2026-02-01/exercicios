@@ -1,28 +1,9 @@
 
-* Leia 5 números e imprima o maior. For07
-
-
-*
-* Conte quantos números são positivos em uma sequência.
-*
-* Leia 10 números e calcule a média.
-*
-* Imprima os números de 1 a 100 pulando de 5 em 5.
-*
 * Calcule o fatorial de um número.
-
 
 
 ### 4\. while
 
-
-
-* Imprima números de 1 a 10 usando while.
-*
-* Leia números até que o usuário digite 0.
-*
-* Some números digitados até que o usuário digite -1.
-*
 * Conte quantos números foram digitados.
 *
 * Leia números enquanto forem positivos.
