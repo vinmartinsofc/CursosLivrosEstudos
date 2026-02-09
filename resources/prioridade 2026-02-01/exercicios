@@ -1,28 +1,12 @@
 
+III
 * Calcule o fatorial de um número.
 
-
-### 4\. while
-
-*
-* Conte quantos números são pares.
-*
-* Simule um contador regressivo.
 
 
 
 ### 5\. do while
 
-*
-* Imprima números de 1 a 10.
-*
-* Leia números até que o usuário digite 0.
-*
-* Simule um menu que aparece pelo menos uma vez.
-*
-* Leia a idade até que seja válida (≥ 0).
-*
-* Leia uma senha até que seja correta.
 *
 * Leia números e conte quantos foram digitados.
 *
