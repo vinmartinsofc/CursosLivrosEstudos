@@ -4,36 +4,8 @@ III
 
 
 
-
-### 5\. do while
-
-*
-* Leia números e conte quantos foram digitados.
-*
-* Leia notas até que o usuário decida parar.
-*
-* Simule uma calculadora simples.
-*
-* Leia valores e some até o usuário sair.
-*
-* Leia números até que sejam maiores que 100.
-
-
-
 ### 6\. break
 
-*
-* Interrompa um loop ao encontrar o número 5.
-*
-* Pare a leitura quando o usuário digitar -1.
-*
-* Procure um número em uma sequência e pare ao encontrar.
-*
-* Encerre um menu quando escolher “Sair”.
-*
-* Encontre o primeiro número par e interrompa o loop.
-*
-* Leia notas e pare se for inválida.
 *
 * Interrompa ao atingir um limite de tentativas.
 *
