@@ -6,9 +6,6 @@ III
 
 ### 6\. break
 
-*
-* Interrompa ao atingir um limite de tentativas.
-*
 * Pare o loop ao encontrar um número negativo.
 *
 * Encontre um divisor e interrompa.

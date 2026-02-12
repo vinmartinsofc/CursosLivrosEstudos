@@ -6,12 +6,12 @@ import java.util.Scanner;
 public class ExBreak07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int attempts = 0;
-        int rand = (int) (Math.random() * 11);
+        int attempts = 3;
+        int rand = (int) (Math.random() * 3);
         int secretNumber;
 
         while (true) {
-            if (attempts >= 2) {
+            if (attempts == 0) {
                 System.out.println("Attempt limits reached!");
                 break;
             }
@@ -24,14 +24,14 @@ public class ExBreak07 {
                 break;
             }
 
-            if (attempts == rand) {
+            if (secretNumber == rand) {
                 System.out.printf("You reached the secret number! %d %n", rand);
-                System.out.printf("Number of attempts: %d", attempts);
+                System.out.printf("Number of attempts last: %d", attempts);
                 break;
             } else {
                 System.out.println("Wrong!");
             }
-            attempts++;
+            attempts--;
 
         }
         scanner.close();
