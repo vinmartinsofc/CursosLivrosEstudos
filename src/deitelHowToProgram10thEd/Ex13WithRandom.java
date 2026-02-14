@@ -1,7 +1,5 @@
 package deitelHowToProgram10thEd;
 
-import java.util.Scanner;
-
 public class Ex13WithRandom {
     public static void main(String[] args) {
 

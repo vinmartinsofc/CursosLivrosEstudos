@@ -3,26 +3,8 @@ III
 * Calcule o fatorial de um número.
 
 
-
-### 6\. break
-
-* Pare o loop ao encontrar um número negativo.
-*
-* Encontre um divisor e interrompa.
-*
-* Simule uma busca simples.
-
-
-
 ### 7\. continue
 
-*
-* Ignore números negativos.
-*
-* Imprima apenas números pares.
-*
-* Ignore múltiplos de 3.
-*
 * Pule valores inválidos.
 *
 * Ignore números iguais a zero.
