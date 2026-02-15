@@ -3,41 +3,12 @@ III
 * Calcule o fatorial de um número.
 
 
-### 7\. continue
-
-* Pule valores inválidos.
-*
-* Ignore números iguais a zero.
-*
-* Pule letras vogais.
-*
-* Ignore números fora de um intervalo.
-*
-* Pule entradas vazias.
-*
-* Ignore notas inválidas.
-*
 * Pule iterações específicas.
-
-
-
 
 
 ### 8\. Debug no IntelliJ IDEA (ESSENCIAL)
 
-*
-* Faça todos com breakpoint (Shift + F9).
-*
-* Execute um for e acompanhe o valor da variável.
-*
-* Veja como o if decide qual bloco executar.
-*
-* Debug um while que entra em loop infinito.
-*
-* Observe o efeito do break.
-*
-* Observe o efeito do continue.
-*
+
 * Debug um erro de lógica (resultado errado).
 *
 * Veja o fluxo de um switch.
