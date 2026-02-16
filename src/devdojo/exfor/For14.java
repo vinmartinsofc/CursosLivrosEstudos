@@ -4,23 +4,27 @@ package devdojo.exfor;
 public class For14 {
 
     public static void main(String[] args) {
-        int rand = (int) (Math.random() * 31);
-        int factorial = 0;
-        int total = rand * rand;
+        int rand = 5;
+//        int rand = (int) (Math.random() * 11);
+        int temp = rand;
+        int result = 0;
+        int result2 = 0;
 
 
-        for (int i = rand; i != 0; i--) {
+        System.out.println("Number is: " + rand);
 
-            if (rand > 0) {
-                factorial = rand;
-            }
+        for (int i = 1; i < 6; i++) {
 
-            System.out.println(factorial+ " x " + i + " = " + factorial * i);
-//            System.out.println(factorial * i);
+            result += rand * temp;
+
+            result2 += result  * result;
+
+            temp--;
 
         }
 
-        System.out.println("Factorial de: " + factorial + " = " + total);
+        System.out.printf("The factorial of %d is: %d %n ", rand, result);
 
     }
+
 }
