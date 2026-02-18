@@ -1,0 +1,11 @@
+2026-02-16
+deitel: recomeçar leitura pelos essenciais
+
+Alura:
+refazer cursos pela ultima vez, começar por OOP quando os livros estiverem em OOP
+
+devdojo
+parei em condicionais
+2026-02-16
+condicionais feitas, recomeçar por arrays
+

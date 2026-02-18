@@ -5,25 +5,18 @@ public class For14 {
 
     public static void main(String[] args) {
         int rand = 5;
-//        int rand = (int) (Math.random() * 11);
-        int temp = rand;
         int result = 0;
-        int result2 = 0;
-
+        int temp = 0;
 
         System.out.println("Number is: " + rand);
 
-        for (int i = 1; i < 6; i++) {
+        for (int i = 5; i > 0; i--) {
 
-            result += rand * temp;
-
-            result2 += result  * result;
-
-            temp--;
+            System.out.println(rand + " x " + i + " is " + result);
 
         }
 
-        System.out.printf("The factorial of %d is: %d %n ", rand, result);
+        System.out.println("Temp is: " + temp);
 
     }
 
