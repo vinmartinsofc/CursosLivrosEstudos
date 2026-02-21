@@ -1,0 +1,9 @@
+Resumão mental pra nunca errar:
+
+Quando for * e / misturados → resolve da esquerda para a direita.
+Quando for + e - misturados → também esquerda para a direita.
+
+Ordem de precidência
+1)Parênteses
+2)*, /, % (da esquerda para a direita)
+3)+ e - (da esquerda para a direita)
