@@ -1,4 +1,4 @@
-package Deitel10th;
+package Deitel10th.ChapterII;
 /*
 (Separando os dígitos em um inteiro) Escreva um aplicativo que insira um número consistindo em cinco dígitos a partir do usuário,
 separe o número em seus dígitos individuais e imprima os dígitos separados uns dos outros por três espaços. Por exemplo, se o usuário

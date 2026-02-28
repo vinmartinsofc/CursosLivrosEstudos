@@ -1,4 +1,4 @@
-package Deitel10th;
+package Deitel10th.ChapterII;
 
 public class ExCap2213 {
     public static void main(String[] args) {

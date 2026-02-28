@@ -1,4 +1,4 @@
-package Deitel10th;
+package Deitel10th.ChapterII;
 
 /*
 (Comparando inteiros) Escreva um aplicativo que solicite ao usuário inserir dois inteiros, obtenha dele esses números e exiba o número

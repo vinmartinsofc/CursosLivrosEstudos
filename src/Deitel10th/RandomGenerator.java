@@ -34,5 +34,7 @@ public class RandomGenerator {
         System.out.println("N4: " + n4);
         System.out.println("N5: " + n5);
 
+
+
     }
 }

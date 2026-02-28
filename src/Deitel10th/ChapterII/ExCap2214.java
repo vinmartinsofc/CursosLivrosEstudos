@@ -1,4 +1,4 @@
-package Deitel10th;
+package Deitel10th.ChapterII;
 
 /*
 Escreva um aplicativo que exiba os números 1 a 4 na mesma linha, com cada par de adjacentes separados por um espaço. Use as seguintes

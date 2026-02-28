@@ -1,4 +1,4 @@
-package Deitel10th;
+package Deitel10th.ChapterII;
 /*
 (Aritmética) Escreva um aplicativo que solicite ao usuário inserir dois inteiros, obtenha dele esses números e imprima sua soma, produto,
 diferença e quociente (divisão). Utilize as técnicas mostradas na Figura 2.7.

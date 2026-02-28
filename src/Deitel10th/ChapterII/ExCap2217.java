@@ -1,4 +1,4 @@
-package Deitel10th;
+package Deitel10th.ChapterII;
 
 /*
 (Aritmética, menor e maior) Escreva um aplicativo que insira três inteiros digitados pelo usuário e exiba a soma, média, produto e os

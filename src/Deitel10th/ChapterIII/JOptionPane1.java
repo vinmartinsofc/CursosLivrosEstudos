@@ -1,8 +1,8 @@
-package Deitel10th.curiosities;
+package Deitel10th.ChapterIII;
 
 import javax.swing.*;
 
-public class AboutJOptionPane {
+public class JOptionPane1 {
     public static void main(String[] args) {
 
         JOptionPane.showMessageDialog( null,"Welcome to java!");

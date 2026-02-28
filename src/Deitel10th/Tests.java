@@ -37,15 +37,33 @@ public class Tests {
 //        System.out.println("& vale: " + valorDeCommercialE);
 
 
-        System.out.printf("*: %d %n", (int) '*');
-        System.out.printf("!: %d %n", (int) '!');
-        System.out.printf("(: %d %n", (int) '(');
-        System.out.printf("): %d %n", (int) ')');
-        System.out.printf("[: %d %n", (int) '[');
-        System.out.printf("]: %d %n", (int) ']');
-        System.out.printf("}: %d %n", (int) '}');
-        System.out.printf("{: %d %n", (int) '{');
-        System.out.printf("=: %d %n", (int) '=');
+//        System.out.printf("*: %d %n", (int) '*');
+//        System.out.printf("!: %d %n", (int) '!');
+//        System.out.printf("(: %d %n", (int) '(');
+//        System.out.printf("): %d %n", (int) ')');
+//        System.out.printf("[: %d %n", (int) '[');
+//        System.out.printf("]: %d %n", (int) ']');
+//        System.out.printf("}: %d %n", (int) '}');
+//        System.out.printf("{: %d %n", (int) '{');
+//        System.out.printf("=: %d %n", (int) '=');
+
+//        int five = 5;
+//
+//        System.out.println(  five > 5 ? "Greater" : "Lower");
+//
+//        String msg = five > 5 ? "Yes" : "No";
+//
+//
+//        System.out.println(msg);
+
+
+        int product = 3;
+
+        while (product <= 100) {
+            product = product * 3;
+        }
+
+        System.out.println("product is: " + product);
 
 
     }

@@ -1,4 +1,4 @@
-package Deitel10th;
+package Deitel10th.ChapterII;
 
 /*
 (Inteiros maiores e menores) Escreva um aplicativo que leia cinco inteiros, além de determinar e imprimir o maior e o menor inteiro
