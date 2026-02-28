@@ -20,7 +20,6 @@ public class Thirty {
 
         }
 
-
         System.out.println("Greatest: " + greatest);
         System.out.println("Second Greatest: " + secondGreatest);
 

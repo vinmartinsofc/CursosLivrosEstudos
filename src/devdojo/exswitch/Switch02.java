@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Switch02 {
     public static void main(String[] args) {
-//        Leia uma letra e informe se é vogal ou consoante.
 
         Scanner input = new Scanner(System.in);
 

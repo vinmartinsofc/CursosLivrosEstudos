@@ -6,7 +6,6 @@ public class ExContinue08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-
         for (int i = 0; i < 100; i++) {
 
             System.out.println("Enter the string you want: ");
@@ -25,6 +24,5 @@ public class ExContinue08 {
 
         }
 
-        input.close();
     }
 }

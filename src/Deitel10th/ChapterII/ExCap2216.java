@@ -1,11 +1,5 @@
 package Deitel10th.ChapterII;
 
-/*
-(Comparando inteiros) Escreva um aplicativo que solicite ao usuário inserir dois inteiros, obtenha dele esses números e exiba o número
-maior seguido pelas palavras “is larger". Se os números forem iguais, imprima a mensagem “These numbers are equal". Utilize
-as técnicas mostradas na Figura 2.15.
- */
-
 import java.util.Scanner;
 
 public class ExCap2216 {

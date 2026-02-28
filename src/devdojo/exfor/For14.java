@@ -1,6 +1,5 @@
 package devdojo.exfor;
 
-// Calcule o fatorial de um número.
 public class For14 {
 
     public static void main(String[] args) {

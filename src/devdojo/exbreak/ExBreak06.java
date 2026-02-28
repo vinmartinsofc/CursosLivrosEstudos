@@ -15,9 +15,7 @@ public class ExBreak06 {
                 break;
             }
 
-
         }
 
-        scanner.close();
     }
 }

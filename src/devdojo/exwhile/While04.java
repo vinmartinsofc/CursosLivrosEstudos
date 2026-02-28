@@ -1,5 +1,4 @@
 package devdojo.exwhile;
-//* Conte quantos números foram digitados.
 
 import java.util.Scanner;
 

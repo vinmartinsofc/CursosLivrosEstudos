@@ -7,13 +7,5 @@ public class InvoiceTest {
 
         System.out.println( invoiceTest1.getInvoiceAmount());
 
-
-
-
-
-
-
-
-
     }
 }

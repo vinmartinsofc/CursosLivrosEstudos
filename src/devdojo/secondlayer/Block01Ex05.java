@@ -1,6 +1,5 @@
 package devdojo.secondlayer;
 
-//5 5. Conte quantos dos 5 números são pares
 public class Block01Ex05 {
     public static void main(String[] args) {
 

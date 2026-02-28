@@ -1,5 +1,4 @@
 package devdojo.exwhile;
-// Leia senhas até que a senha correta seja digitada.
 
 import java.util.Scanner;
 

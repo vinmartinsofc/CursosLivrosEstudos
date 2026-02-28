@@ -1,11 +1,5 @@
 package devdojo.excondicionais;
 
-/*
- * Leia um salário e calcule o aumento:
- * até 2000 → +10%
- * acima de 2000 → +5%
- */
-
 import java.util.Scanner;
 
 public class Condicionais04 {

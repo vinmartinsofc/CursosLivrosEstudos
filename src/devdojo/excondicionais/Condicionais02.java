@@ -1,7 +1,5 @@
 package devdojo.excondicionais;
 
-//* Leia dois números e imprima o maior deles.
-
 public class Condicionais02 {
 
     public static void main(String[] args) {

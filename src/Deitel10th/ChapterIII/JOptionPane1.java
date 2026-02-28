@@ -8,6 +8,5 @@ public class JOptionPane1 {
         JOptionPane.showMessageDialog( null,"Welcome to java!");
 
 
-
     }
 }

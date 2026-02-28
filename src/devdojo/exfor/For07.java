@@ -1,9 +1,5 @@
 package devdojo.exfor;
 
-/*
- * Leia 5 números e imprima o maior.
- */
-
 public class For07 {
     public static void main(String[] args) {
 

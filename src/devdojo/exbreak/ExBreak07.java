@@ -1,5 +1,4 @@
 package devdojo.exbreak;
-//* Interrompa ao atingir um limite de tentativas.
 
 import java.util.Scanner;
 
@@ -34,7 +33,6 @@ public class ExBreak07 {
             attempts--;
 
         }
-        scanner.close();
 
     }
 }

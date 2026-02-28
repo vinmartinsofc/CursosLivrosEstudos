@@ -1,8 +1,8 @@
 package Deitel10th.ChapterIII;
 
 public class Account {
-    private String name; // variável de instância
-    private double balance; // variável de instância
+    private String name;
+    private double balance;
 
 
     public Account(String name, double balance) {

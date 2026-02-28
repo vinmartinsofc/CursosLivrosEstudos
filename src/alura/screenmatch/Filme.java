@@ -8,5 +8,4 @@ public class Filme {
     int totalAvaliacoes;
     int duracaoEmMinutos;
 
-
 }

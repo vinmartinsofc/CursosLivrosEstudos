@@ -1,6 +1,5 @@
 package devdojo.secondlayer;
 
-//4 4. Leia 5 números e mostre a média
 public class Block01Ex04 {
     public static void main(String[] args) {
         double nums;

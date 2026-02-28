@@ -7,7 +7,6 @@ public class ExBreak04 {
         Scanner scanner = new Scanner(System.in);
         String opt;
 
-
         do {
             System.out.println("1 - Option 1");
             System.out.println("2 - Option 2");

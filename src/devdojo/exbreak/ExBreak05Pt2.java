@@ -23,7 +23,6 @@ public class ExBreak05Pt2 {
             }
 
         }
-        scanner.close();
 
     }
 

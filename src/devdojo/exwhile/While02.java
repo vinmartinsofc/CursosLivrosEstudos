@@ -2,8 +2,6 @@ package devdojo.exwhile;
 
 import java.util.Scanner;
 
-//* Leia números até que o usuário digite 0.
-
 public class While02 {
     public static void main(String[] args) {
 

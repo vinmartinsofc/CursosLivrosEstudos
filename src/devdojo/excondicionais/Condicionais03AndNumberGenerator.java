@@ -1,7 +1,5 @@
 package devdojo.excondicionais;
 
-//* Leia três números e informe qual é o maior.
-
 public class Condicionais03AndNumberGenerator {
     public static void main(String[] args) {
         int numberOne, numberTwo, numberThree;

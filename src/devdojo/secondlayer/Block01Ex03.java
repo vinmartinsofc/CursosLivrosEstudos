@@ -1,6 +1,5 @@
 package devdojo.secondlayer;
 
-//3. Leia 5 números e mostre a soma.
 public class Block01Ex03 {
     public static void main(String[] args) {
         double nums;

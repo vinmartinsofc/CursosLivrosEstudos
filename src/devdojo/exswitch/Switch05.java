@@ -1,7 +1,5 @@
 package devdojo.exswitch;
 
-//* Leia uma operação (+ - \* /) e dois números, calcule o resultado.
-
 import java.util.Scanner;
 
 public class Switch05 {

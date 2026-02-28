@@ -1,7 +1,5 @@
 package devdojo.exfor;
 
-//* Leia 10 números e calcule a média.
-
 public class For12 {
     public static void main(String[] args) {
 

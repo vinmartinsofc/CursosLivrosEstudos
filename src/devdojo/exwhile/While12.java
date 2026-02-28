@@ -1,7 +1,5 @@
 package devdojo.exwhile;
 
-//* Leia números e conte quantos foram digitados.
-
 import java.util.Scanner;
 
 public class While12 {

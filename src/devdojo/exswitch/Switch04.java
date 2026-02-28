@@ -1,7 +1,5 @@
 package devdojo.exswitch;
 
-//* Leia um código de produto e imprima sua categoria.
-
 import java.util.Scanner;
 
 public class Switch04 {

@@ -1,9 +1,4 @@
 package Deitel10th.ChapterIII;
-/*
- o
-número (tipo String), a descrição (tipo String), a quantidade comprada de um item (tipo int) e o preço por item (double ). Sua
-classe deve ter um construtor que inicializa as quatro variáveis de instância. F
- */
 
 public class Invoice {
     private String number;

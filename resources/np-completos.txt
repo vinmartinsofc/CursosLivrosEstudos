@@ -1,1 +1,0 @@
-1 - algoritmo para calcular o fatorial de um número (n = x o resultado anterior)

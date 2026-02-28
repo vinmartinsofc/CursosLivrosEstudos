@@ -11,8 +11,5 @@ public class JOptionPane2 {
 
         JOptionPane.showMessageDialog(null, msg);
 
-
-
-
     }
 }

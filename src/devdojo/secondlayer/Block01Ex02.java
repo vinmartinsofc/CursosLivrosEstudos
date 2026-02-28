@@ -1,5 +1,4 @@
 package devdojo.secondlayer;
-//2. Leia 5 números e mostre o menor
 public class Block01Ex02 {
     public static void main(String[] args) {
         int rand;

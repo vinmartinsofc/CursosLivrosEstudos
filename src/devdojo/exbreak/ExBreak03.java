@@ -1,5 +1,4 @@
 package devdojo.exbreak;
-//* Procure um número em uma sequência e pare ao encontrar.
 
 import java.util.Scanner;
 
@@ -14,7 +13,7 @@ public class ExBreak03 {
 
             int n1 = userInput / 100 % 10;
             int n2 = userInput / 10 % 10;
-            int n3 = userInput / 1 % 10;
+            int n3 = userInput % 10;
 
             System.out.printf("n1: %-3d n2: %-3d n3: %-3d %n", n1, n2, n3);
 

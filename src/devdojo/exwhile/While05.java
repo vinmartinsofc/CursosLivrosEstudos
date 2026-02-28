@@ -1,5 +1,4 @@
 package devdojo.exwhile;
-//* Leia números enquanto forem positivos.
 
 public class While05 {
     public static void main(String[] args) {

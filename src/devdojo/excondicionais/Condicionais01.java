@@ -1,7 +1,5 @@
 package devdojo.excondicionais;
 
-//* Leia um número inteiro e informe se ele é positivo, negativo ou zero.
-
 import java.util.Scanner;
 
 public class Condicionais01 {

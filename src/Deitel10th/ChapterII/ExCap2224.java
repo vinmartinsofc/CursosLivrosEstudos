@@ -1,10 +1,5 @@
 package Deitel10th.ChapterII;
 
-/*
-(Inteiros maiores e menores) Escreva um aplicativo que leia cinco inteiros, além de determinar e imprimir o maior e o menor inteiro
-no grupo. Utilize somente as técnicas de programação que você aprendeu neste capítulo.
- */
-
 import java.util.Scanner;
 
 public class ExCap2224 {

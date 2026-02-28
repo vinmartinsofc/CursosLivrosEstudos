@@ -18,8 +18,6 @@ public class arrays03 {
         }
 
 
-
-
     }
 
 

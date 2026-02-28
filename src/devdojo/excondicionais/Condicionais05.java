@@ -1,5 +1,4 @@
 package devdojo.excondicionais;
-//* Leia dois valores booleanos (true/false) e informe se ambos são verdadeiros.
 public class Condicionais05 {
     public static void main(String[] args) {
 
@@ -11,8 +10,6 @@ public class Condicionais05 {
         String simOuNao = valorB1 == true ? "Sim!" : "Não!";
 
         System.out.println(simOuNao);
-
-
 
 
 //        if (valorB1 == true && valorB2 == true) {

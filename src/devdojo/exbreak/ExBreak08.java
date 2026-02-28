@@ -1,7 +1,5 @@
 package devdojo.exbreak;
 
-//* Pare o loop ao encontrar um número negativo.
-
 public class ExBreak08 {
     public static void main(String[] args) {
         int rand;

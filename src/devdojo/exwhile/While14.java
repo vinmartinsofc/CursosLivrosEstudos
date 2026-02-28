@@ -1,6 +1,4 @@
 package devdojo.exwhile;
-//* Simule uma calculadora simples.
-
 
 import java.util.Scanner;
 

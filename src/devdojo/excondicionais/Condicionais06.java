@@ -2,7 +2,6 @@ package devdojo.excondicionais;
 
 import java.util.Scanner;
 
-//* Leia um ano e informe se é bissexto.
 public class Condicionais06 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -24,7 +23,6 @@ public class Condicionais06 {
         } else {
             System.out.println("O ano é bisexto: " + ano + " dias.");
         }
-
 
     }
 }

@@ -1,5 +1,4 @@
 package devdojo.exfor;
-//* Conte quantos números são positivos em uma sequência.
 
 public class For11 {
     public static void main(String[] args) {

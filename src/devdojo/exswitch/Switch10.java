@@ -33,7 +33,6 @@ public class Switch10 {
                     System.out.println("Sábado.");
             }
 
-
         }
 
     }

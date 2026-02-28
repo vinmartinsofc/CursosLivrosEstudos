@@ -4,7 +4,6 @@ public class ExContinue07 {
     public static void main(String[] args) {
         int numbers = 0;
 
-
         for (int i = 0; i < 80; i++) {
             numbers++;
 

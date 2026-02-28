@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class While09 {
     public static void main(String[] args) {
-//     Leia números e calcule a média (quantidade indefinida).
 
         Scanner input = new Scanner(System.in);
-//        double userNumbers = 0;
         double userNumbers;
         int inputAmount = 0;
         double numbersSum = 0;

@@ -1,10 +1,5 @@
 package Deitel10th.ChapterII;
 
-/*
-(Múltiplos) Escreva um aplicativo que leia dois inteiros, além de determinar se o primeiro é um múltiplo do segundo e imprimir o resul-
-tado. [Dica: utilize o operador de resto.]
- */
-
 public class ExCap2226 {
     public static void main(String[] args) {
         int rand;

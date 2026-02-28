@@ -1,7 +1,5 @@
 package devdojo.exwhile;
 
-//* Leia números até que sejam maiores que 100.
-
 public class While16 {
     public static void main(String[] args) {
 

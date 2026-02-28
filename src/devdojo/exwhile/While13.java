@@ -1,7 +1,6 @@
 package devdojo.exwhile;
 
 import java.util.Scanner;
-//* Leia notas até que o usuário decida parar.
 
 public class While13 {
     public static void main(String[] args) {

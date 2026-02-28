@@ -15,7 +15,6 @@ public class While06 {
                 Option 5
                 exit
                 """;
-
         while (!menuOption.equalsIgnoreCase("exit")) {
             System.out.println(menuDisplay);
             menuOption = input.next();

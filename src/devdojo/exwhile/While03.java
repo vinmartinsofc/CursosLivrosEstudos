@@ -1,5 +1,4 @@
 package devdojo.exwhile;
-//* Some números digitados até que o usuário digite -1.
 
 public class While03 {
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
 package devdojo.secondlayer;
-//Leia 5 números e mostre o maior.
 
 public class Block01Ex01 {
     public static void main(String[] args) {

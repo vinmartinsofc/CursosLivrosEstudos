@@ -7,8 +7,6 @@ public class Switch06 {
         Scanner input = new Scanner(System.in);
         System.out.println("1, 2, or 3?");
 
-//        int userInput = input.nextInt();
-
         int random = (int) (Math.random() * 3);
 
         System.out.println(random);
