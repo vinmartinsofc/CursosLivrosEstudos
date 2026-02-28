@@ -1,0 +1,14 @@
+        HealthProfile
+«HealthProfile» : name, secondName, sex, bornDate, height, wiehgt
+name
+secondName
+sex
+bornDate : day/month/year
+height : in metters
+weight : kg
+get : all
+set : all
+getAgeInYears
+getMaxFreqInterval
+getMinFreqInterval
+getImc

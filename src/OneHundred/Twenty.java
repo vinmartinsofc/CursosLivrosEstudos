@@ -10,7 +10,6 @@ public class Twenty {
         System.out.print("Enter the integer: ");
         int userInteger = scanner.nextInt();
 
-
         while (userInteger != 0) {
 
             if (previousNumber == 0) {

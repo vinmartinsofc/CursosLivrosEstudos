@@ -8,7 +8,7 @@ public class TwentyNine {
 
         for (int i = 0; i < 6; i++) {
 
-            rand = (int) (Math.random() * 101);
+            rand = (int) (Math.random() * 11);
 
             if (greatest == 0 && lowest == 0) {
                 lowest = rand;
@@ -21,7 +21,11 @@ public class TwentyNine {
             }
 
             if (rand < lowest) {
-                lowest = rand;
+                if (rand == 0) {
+                    continue;
+                } else {
+                    lowest = rand;
+                }
             }
 
         }
@@ -29,7 +33,6 @@ public class TwentyNine {
         System.out.println("Greatest: " + greatest);
         System.out.println("Lowest: " + lowest);
         System.out.println("Difference: " + (greatest - lowest));
-
 
     }
 }

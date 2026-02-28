@@ -22,7 +22,6 @@ public class TwentyWithRandom {
 
         }
 
-
         System.out.printf("%nLowest Number is: %d", previous);
 
     }
