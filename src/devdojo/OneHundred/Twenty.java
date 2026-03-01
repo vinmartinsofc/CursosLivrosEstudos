@@ -1,4 +1,4 @@
-package OneHundred;
+package devdojo.OneHundred;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package OneHundred;
+package devdojo.OneHundred;
 
 public class Nineteen {
     public static void main(String[] args) {

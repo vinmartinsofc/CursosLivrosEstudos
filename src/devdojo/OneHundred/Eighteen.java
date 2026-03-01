@@ -1,6 +1,4 @@
-package OneHundred;
-
-import java.sql.SQLOutput;
+package devdojo.OneHundred;
 
 public class Eighteen {
     public static void main(String[] args) {
