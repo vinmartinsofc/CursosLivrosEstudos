@@ -92,21 +92,19 @@ public class HealthProfile {
     }
 
     public double getMaxHeartFrequency() {
-        System.out.println(220 - getAgeInYears());
         return 220 - getAgeInYears();
     }
 
     public double getMinTargetHeartFrequency() {
-        return 0.50 * getAgeInYears();
+        return 0.50 * getMaxHeartFrequency();
     }
 
     public double getMaxTargetHeartFrequency() {
-        return 0.85 * getAgeInYears();
+        return 0.85 * getMaxHeartFrequency();
     }
 
-    public String getImc() {
-        double calulation = weihgt / (height * height);
-        return String.format("%.2f", calulation);
+    public double getImc() {
+        return weihgt / (height * height);
     }
 
     public void displayInfo() {
@@ -115,9 +113,9 @@ public class HealthProfile {
         System.out.println("First Name: " + firstName);
         System.out.println("Sex: " + sex);
         System.out.println("Age: " + getAgeInYears());
-        System.out.println("Body Mass (IMC): " + getImc());
-        System.out.println("Min Heart Freq: " + getMinTargetHeartFrequency());
-        System.out.println("Max Heart Freq: " + getMaxTargetHeartFrequency());
+        System.out.printf("Body Mass (IMC): %.2f%n", getImc());
+        System.out.printf("Min Heart Freq: %.2f%n", getMinTargetHeartFrequency());
+        System.out.printf("Max Heart Freq: %.2f%n", getMaxTargetHeartFrequency());
     }
 
 }
