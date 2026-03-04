@@ -10,16 +10,16 @@ public class Sentinel05 {
 
         System.out.print("Enter the integer or 0 to quit: ");
         int userInteger = scanner.nextInt();
+        lowest = userInteger;
 
         while (userInteger != 0) {
             if (userInteger > highest) {
                 highest = userInteger;
             }
 
-            if (userInteger > lowest) {
+            if (userInteger < lowest) {
                 lowest = userInteger;
             }
-
 
             System.out.print("Enter the integer or 0 to quit: ");
             userInteger = scanner.nextInt();

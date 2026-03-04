@@ -5,56 +5,42 @@ import java.util.Scanner;
 public class ExCap4417 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int totalKillometers = 0;
-        int totalFuel = 0;
-        int killometers = 0;
+        int killometers;
         int fuel = 0;
-        double killometerPerLiter = 0;
-        double average = 0;
-        int tripCount = 0;
+        int killometersSum = 0;
+        int fuelSum = 0;
+        int trips = 0;
+        double avgFuelPerLitter = 0;
 
-        System.out.print("Enter the amount of kilometer ridden or press -1 to exit: ");
+        System.out.print("Enter the amount of kilometer ridden -1 to quit: ");
         killometers = scanner.nextInt();
 
-        System.out.print("Enter the amount of fuel consumed or press -1 to exit: ");
-        fuel = scanner.nextInt();
-
-        System.out.printf("%d killometers with %d of fuel does %.2f killometer per liter %n",
-                killometers, fuel, killometerPerLiter);
-
         while (killometers != -1) {
-            System.out.print("Enter the amount of kilometer rode or press -1 to exit: ");
-            killometers = scanner.nextInt();
 
-            System.out.print("Enter the amount of fuel consumed or press -1 to exit: ");
+            System.out.print("Enter the amount of fuel consumed: ");
             fuel = scanner.nextInt();
 
-            if (fuel <= 0) {
-                System.out.println("Can't divide by zero");
-                continue;
+            killometersSum += killometers;
+            fuelSum += fuel;
+            trips++;
+
+            System.out.printf("%d kilometers ridden with %d fuel does %.2f killometers per litter %n",
+                        killometers, fuel, (double) killometers / fuel);
+
+            System.out.print("Enter the amount of kilometer ridden -1 to quit: ");
+            killometers = scanner.nextInt();
+        }
+        if (trips > 0) {
+            if (fuelSum > 0) {
+                avgFuelPerLitter = (double) killometersSum / fuelSum;
             }
-
-            totalKillometers += killometers;
-            totalFuel += fuel;
-
-            killometerPerLiter = (double) killometers / fuel;
-
-            System.out.printf("%d killometers with %d of fuel does %.2f killometer per liter %n",
-                    killometers, fuel, killometerPerLiter);
-
-            tripCount++;
-
+            System.out.println("Total trips: " + trips);
+            System.out.printf("Average km per liter : %.2f%n", avgFuelPerLitter);
+            System.out.printf("Total kilometers rode: %d%n", killometersSum);
+            System.out.printf("Total fuel used: %d%n", fuelSum);
+        } else {
+            System.out.println("User chose to close application");
         }
-
-        System.out.printf("Total kilometers rode: %d%n", totalKillometers);
-        System.out.printf("Total fuel used: %d%n", totalFuel);
-
-        if (totalFuel > 0) {
-             average = (double) totalKillometers / totalFuel;
-            System.out.printf("Average km per liter overall: %.2f%n", average);
-        }
-
-        System.out.println("Trips: " + tripCount);
 
         scanner.close();
     }
