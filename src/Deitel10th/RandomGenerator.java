@@ -27,7 +27,6 @@ public class RandomGenerator {
 
         }
 
-
         System.out.println("N1: " + n1);
         System.out.println("N2: " + n2);
         System.out.println("N3: " + n3);
