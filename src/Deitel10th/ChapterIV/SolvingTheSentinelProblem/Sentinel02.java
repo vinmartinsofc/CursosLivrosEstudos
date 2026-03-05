@@ -5,25 +5,27 @@ import java.util.Scanner;
 public class Sentinel02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int highest = 0;
+        int highest;
 
         System.out.print("Enter the integer or -1 to exit: ");
-        int userInteger = input.nextInt();
+        int userNumbers = input.nextInt();
+        highest = userNumbers;
 
-        while (userInteger != -1) {
+        while (userNumbers != -1) {
 
-            if (userInteger > highest) {
-                highest = userInteger;
+            if (userNumbers > highest) {
+                highest = userNumbers;
             }
-            System.out.print("Enter the integer or -1 to quit: ");
-            userInteger = input.nextInt();
-        }
+            System.out.print("Enter the integer or -1 to exit: ");
+            userNumbers = input.nextInt();
 
-        if (highest > 0) {
-            System.out.println("Highest number is: " + highest);
-        } else {
-            System.out.println("Any integer entered");
         }
+            if (highest == -1) {
+                System.out.println("User didn't provide any number");
+            } else {
+                System.out.printf("Highest integer entered: %d%n",highest);
+            }
 
+            input.close();
     }
 }

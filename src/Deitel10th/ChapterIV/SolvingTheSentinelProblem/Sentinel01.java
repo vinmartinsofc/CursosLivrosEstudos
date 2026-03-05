@@ -25,7 +25,6 @@ public class Sentinel01 {
         System.out.printf("Total amount: %d%n", sum);
 
 
-
         scanner.close();
 
     }

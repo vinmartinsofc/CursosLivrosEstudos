@@ -1,25 +1,44 @@
 package Deitel10th.ChapterIV.SolvingTheSentinelProblem;
 
+import java.util.Scanner;
+
 public class Sentinel03 {
     public static void main(String[] args) {
-        int rand = 0;
-        int total = 0;
-        int count = 0;
+        Scanner scanner = new Scanner(System.in);
+        int numberCount = 0;
+        int totalPositive = 0;
+        double avg;
 
-        while (rand != -1) {
-            rand = (int) (Math.random() * 101) - 10;
+        System.out.print("Enter the desired integer or -1 to quit: ");
+        int userInput = scanner.nextInt();
 
-            if (rand > 0) {
-                total += rand;
+        if (userInput != -1 ) {
+           if (userInput > 0) {
+               totalPositive += userInput;
+               numberCount++;
+           }
+        }
+
+        while (userInput != -1) {
+
+            System.out.print("Enter the desired integer or -1 to quit: ");
+            userInput = scanner.nextInt();
+
+            if (userInput > 0) {
+                totalPositive += userInput;
+                numberCount++;
             }
-            count++;
 
         }
-        if (total > 0) {
-            System.out.println("Avg of numbers is: " + (total / count));
+
+        if (numberCount > 1) {
+            avg = (double) totalPositive / numberCount;
+            System.out.printf("Avg is %.2f", avg);
         } else {
-            System.out.println("No positive number generated");
+            System.out.println("Insuficient numbers entered");
         }
+
+
 
     }
 }
