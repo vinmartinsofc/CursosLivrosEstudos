@@ -75,38 +75,37 @@ public class Carro {
     }
 
     public void calcularMaiorPreco() {
-        if (preco1 > preco2 && preco2 > preco3) {
-            System.out.println("Ano " + ano1 + " maior preco");
-        } else if (preco2 > preco1 && preco2 > preco3 ) {
-            System.out.println("Ano " + ano2 + " maior preco");
+        if (getPreco1() > getPreco2() && getPreco1() > getPreco3()) {
+            System.out.println("Ano " + getAno1() + " maior preco");
+        } else if (getPreco2() > getPreco1() && getPreco2() > getPreco3() ) {
+            System.out.println("Ano " + getAno2() + " maior preco");
         } else {
-            System.out.println("Ano " + ano3 + " maior preco");
+            System.out.println("Ano " + getAno3() + " maior preco");
         }
     }
 
     public void calcularMenorPreco() {
-        if (preco1 < preco2 && preco2 < preco3) {
-            System.out.println("Ano " + ano1 + " menor preco");
-        } else if (preco2 < preco1 && preco2 < preco3 ) {
-            System.out.println("Ano " + ano2 + " menor preco");
+        if (getPreco1() < getPreco2() && getPreco1() < getPreco3()) {
+            System.out.println("Ano " + getAno1() + " menor preco");
+        } else if (getPreco2() < getPreco1() && getPreco2() < getPreco3() ) {
+            System.out.println("Ano " + getAno2() + " menor preco");
         } else {
-            System.out.println("Ano " + ano3 + " menor preco");
+            System.out.println("Ano " + getAno3() + " menor preco");
         }
+
     }
 
-    public void mostrarCarro() {
-        System.out.println("Nome: " + nome);
+    public void detalharModelo() {
         System.out.println("Modelo: " + modelo);
-        System.out.println("Ano " + ano1);
-        System.out.println("Preço em " + ano1 + ":" + preco1);
-        System.out.println("Ano " + ano2);
-        System.out.println("Preço em " + ano2 + ":" + preco2);
-        System.out.println("Ano " + ano3);
-        System.out.println("Preço em " + ano3 + ":" + preco3);
-        System.out.print("Maior preço: ");
+        System.out.println("Ano " + ano1 + "=" + preco1);
+        System.out.println("Ano " + ano2 + "=" + preco2);
+        System.out.println("Ano " + ano3 + "=" + preco3);
+        System.out.println("******");
+        calcularMaiorPreco();
         calcularMenorPreco();
-    }
+        System.out.println("******");
 
+    }
 
 
 
