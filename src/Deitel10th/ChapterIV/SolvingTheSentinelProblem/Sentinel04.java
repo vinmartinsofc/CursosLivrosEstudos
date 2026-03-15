@@ -7,7 +7,7 @@ public class Sentinel04 {
         Scanner scanner = new Scanner(System.in);
         int pairsCount = 0;
 
-        System.out.println("Enter the wished integer or press -1 to quit: ");
+        System.out.println("Enter the integer or -1 to quit: ");
         int userInput = scanner.nextInt();
 
         while (userInput != -1) {

@@ -19,6 +19,6 @@ public class ExCap2230 {
 
         System.out.printf("Your Integer separted are: %d %d %d %d %d %n ", firstInteger, secondInteger, thirdInteger, fourthInteger, lastInteger);
 
-
+        input.close();
     }
 }

@@ -45,6 +45,6 @@ public class ExCap2224 {
             System.out.println(n5 + " lowest");
         }
 
-
+        input.close();
     }
 }

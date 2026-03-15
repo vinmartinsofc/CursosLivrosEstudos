@@ -21,5 +21,6 @@ public class ExCap2215 {
         System.out.println("Quocient: " + quocient);
 
 
+        input.close();
     }
 }

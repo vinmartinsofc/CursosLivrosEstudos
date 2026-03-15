@@ -20,5 +20,7 @@ public class ExCap2216 {
             System.out.println("These numbers are equal");
         }
 
+        input.close();
+
     }
 }

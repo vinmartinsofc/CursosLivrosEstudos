@@ -1,4 +1,4 @@
-package Deitel10th.ChapterIII;
+package Deitel10th.ChapterIII.Account;
 
 import java.util.Scanner;
 
@@ -36,6 +36,17 @@ public class AccountTest {
 
         System.out.printf("%s balance: $%.2f %n", account1.getName(),account1.getBalance());
         System.out.printf("%s balance: $%.2f %n%n", account2.getName(),account2.getBalance());
+
+        account1.withdraw(50);
+        account2.withdraw(30);
+
+        System.out.printf("%s%n%n", "Using withdraw method!");
+
+        System.out.printf("%s balance is: %.2f%n", account1.getName(), account1.getBalance());
+        System.out.printf("%s balance is: %.2f%n", account2.getName(), account2.getBalance());
+
+
+
 
     }
 

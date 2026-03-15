@@ -1,4 +1,4 @@
-package Deitel10th.ChapterIII;
+package Deitel10th.ChapterIII.Account;
 
 public class Account {
     private String name;
