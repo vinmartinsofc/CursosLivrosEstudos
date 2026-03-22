@@ -39,7 +39,7 @@ public class ExCap4417 {
             System.out.printf("Total kilometers rode: %d%n", killometersSum);
             System.out.printf("Total fuel used: %d%n", fuelSum);
         } else {
-            System.out.println("User chose to close application");
+            System.out.println("Application closed by user");
         }
 
         scanner.close();
