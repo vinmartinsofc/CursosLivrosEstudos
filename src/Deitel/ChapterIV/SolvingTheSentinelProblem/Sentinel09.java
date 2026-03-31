@@ -5,15 +5,14 @@ import java.util.Scanner;
 public class Sentinel09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double note1 = 0;
+        double note1;
         double note2 = 0;
         double note3 = 0;
         int weight1 = 0;
         int weight2 = 0;
         int weight3 = 0;
-        double avg = 0;
+        double avg;
         int totalCalc = 0;
-
 
         System.out.print("Enter the first note (-1 to quit): ");
         note1 = scanner.nextDouble();
@@ -46,6 +45,6 @@ public class Sentinel09 {
        }
 
 
-
+     scanner.close();
     }
 }

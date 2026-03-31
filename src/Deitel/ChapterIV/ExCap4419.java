@@ -35,6 +35,6 @@ public class ExCap4419 {
             System.out.println("Application closed by user");
         }
 
-
+        scanner.close();
     }
 }

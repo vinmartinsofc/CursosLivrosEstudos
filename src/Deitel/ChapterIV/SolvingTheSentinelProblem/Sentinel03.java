@@ -39,6 +39,6 @@ public class Sentinel03 {
         }
 
 
-
+     scanner.close();
     }
 }

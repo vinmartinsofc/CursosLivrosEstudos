@@ -6,7 +6,7 @@ public class Sentinel05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int highest = 0;
-        int lowest = 0;
+        int lowest;
 
         System.out.print("Enter the integer or 0 to quit: ");
         int userInteger = scanner.nextInt();

@@ -24,6 +24,6 @@ public class Sentinel04 {
         } else {
             System.out.println("Any pair entered");
         }
-
+        scanner.close();
     }
 }
