@@ -2,19 +2,25 @@ package Deitel;
 
 public class Tests {
     public static void main(String[] args) {
-        System.out.println("Max:" + Integer.MAX_VALUE);
-        System.out.println("Min:" + Integer.MAX_VALUE);
+        /*
+      char test = 'A';
+
+       int valorDeA = (int) test;
+
+       char teste2 = (char) valorDeA;
+
+        System.out.println(valorDeA);
 
 
-        System.out.println("Max (Double):" + Double.MAX_VALUE);
-        System.out.println("Min (Double):" + Double.MIN_VALUE);
+        System.out.println(teste2);
 
-        int five = 5;
+        */
 
-        while (five != 0)
-            five = five -1;
+        int test = Integer.MIN_VALUE;
 
-        System.out.println("Five is: " + five);
+
+        System.out.println(test);
+
 
     }
 }

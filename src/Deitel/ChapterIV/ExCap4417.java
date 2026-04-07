@@ -10,6 +10,7 @@ public class ExCap4417 {
         int killometersSum = 0;
         int fuelSum = 0;
         int trips = 0;
+        int tripCount = 0;
         double avgFuelPerLitter = 0;
 
         System.out.print("Enter the amount of kilometer ridden -1 to quit: ");
@@ -22,7 +23,7 @@ public class ExCap4417 {
 
             killometersSum += killometers;
             fuelSum += fuel;
-            trips++;
+            tripCount++;
 
             System.out.printf("%d kilometers ridden with %d fuel does %.2f killometers per litter %n",
                         killometers, fuel, (double) killometers / fuel);
@@ -30,11 +31,11 @@ public class ExCap4417 {
             System.out.print("Enter the amount of kilometer ridden -1 to quit: ");
             killometers = scanner.nextInt();
         }
-        if (trips > 0) {
+        if (tripCount > 0) {
             if (fuelSum > 0) {
                 avgFuelPerLitter = (double) killometersSum / fuelSum;
             }
-            System.out.println("Total trips: " + trips);
+            System.out.println("Total trips: " + tripCount);
             System.out.printf("Average km per liter : %.2f%n", avgFuelPerLitter);
             System.out.printf("Total kilometers rode: %d%n", killometersSum);
             System.out.printf("Total fuel used: %d%n", fuelSum);

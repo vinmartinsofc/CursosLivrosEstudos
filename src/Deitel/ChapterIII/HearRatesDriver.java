@@ -2,7 +2,7 @@ package Deitel.ChapterIII;
 
 import java.util.Scanner;
 
-public class HearRatesTest {
+public class HearRatesDriver {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your last name: ");

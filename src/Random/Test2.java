@@ -1,19 +1,14 @@
 package Random;
 
-public class Test {
+public class Test2 {
     public static void main(String[] args) {
         int x, y;
-        x = 5;
+        x = 2;
         y = 0;
-
-        while (x > 2) {
+        while (x < 60) {
             System.out.println(x);
-            y = y + x;
-            x = x - 1;
+            x = x * 2;
+            y = y + 10;
         }
-
-
     }
-
-
 }

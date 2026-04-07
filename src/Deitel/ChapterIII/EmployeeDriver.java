@@ -1,6 +1,6 @@
 package Deitel.ChapterIII;
 
-public class EmployeeTest {
+public class EmployeeDriver {
     public static void main(String[] args) {
 
         Employee employee1 = new Employee("Mark", "Web Designer", 5000);

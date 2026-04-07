@@ -4,22 +4,19 @@ public class ExCap2217 {
     public static void main(String[] args) {
         int rand;
         int n1 = 0, n2=0, n3=0;
-        int sum = 0;
-        int avg = 0;
-        int product = 0;
+        int sum;
+        int avg;
+        int product;
 
         for (int i = 0; i < 3; i++) {
             rand = (int) (Math.random() * 11);
 
             if (n1 == 0) {
                 n1 = rand;
-                continue;
             } else if (n2 == 0) {
                 n2 = rand;
-                continue;
             } else {
                 n3 = rand;
-                continue;
             }
         }
 

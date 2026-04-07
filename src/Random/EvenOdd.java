@@ -55,19 +55,21 @@ public class EvenOdd {
 
             System.out.println("1: Even or 2: Odd");
             evenOrOdd = scanner.nextInt();
+
+            if (evenOrOdd == 1) {
+                Arrays.stream(even)
+                        .boxed()
+                        .sorted(Comparator.reverseOrder())
+                        .forEach(System.out::println);
+            } else {
+                Arrays.stream(odd)
+                        .boxed()
+                        .sorted(Comparator.reverseOrder())
+                        .forEach(System.out::println);
+            }
+
         }
 
-        if (evenOrOdd == 1) {
-            Arrays.stream(even)
-                    .boxed()
-                    .sorted(Comparator.reverseOrder())
-                    .forEach(System.out::println);
-        } else {
-            Arrays.stream(odd)
-                    .boxed()
-                    .sorted(Comparator.reverseOrder())
-                    .forEach(System.out::println);
-        }
 
         scanner.close();
     }
