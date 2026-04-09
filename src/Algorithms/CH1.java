@@ -2,39 +2,27 @@ package Algorithms;
 
 public class CH1 {
     public static void main(String[] args) {
-        int num = 5;
-        int guess = 0;
-        int count = 0;
-        int count2 = 0;
-        int avgGuess = 0;
-        int total = 0;
+        int totalTrials = 0;
+        int rodadas = 10;
 
-        while (count < 10) {
+        for (int i = 0; i < rodadas; i++) {
+            int num = 128;
+            int guess = -1;
+            int trials = 0;
 
-            while (count < 10) {
-                guess = (int) (Math.random() * 6);
-
-
-                System.out.println("Guesses: " + count2);
-                count++;
+            while (guess != num) {
+                guess = (int) (Math.random() * 129);
+                trials++;
             }
 
-
-            avgGuess += count;
-            count++;
+            System.out.println("Rodada " + (i + 1) + ": " + trials + " tentativas");
+            totalTrials += trials;
         }
 
-
-
-
-//        if (count > 0) {
-//           double calc = avgGuess / total;
-//            System.out.printf("Avg: %.2f", calc);
-//
-//        } else {
-//            System.out.println("...");
-//        }
+        double media = (double) totalTrials / rodadas;
+        System.out.println("\nMédia de tentativas: " + media);
 
 
     }
+
 }
