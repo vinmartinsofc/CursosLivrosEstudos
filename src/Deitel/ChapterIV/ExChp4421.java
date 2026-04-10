@@ -2,7 +2,7 @@ package Deitel.ChapterIV;
 
 import java.util.Scanner;
 
-public class ExerciseChapter44221 {
+public class ExChp4421 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number;

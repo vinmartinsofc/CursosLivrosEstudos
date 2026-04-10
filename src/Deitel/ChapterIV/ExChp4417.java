@@ -2,7 +2,7 @@ package Deitel.ChapterIV;
 
 import java.util.Scanner;
 
-public class ExCap4417 {
+public class ExChp4417 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int killometers;

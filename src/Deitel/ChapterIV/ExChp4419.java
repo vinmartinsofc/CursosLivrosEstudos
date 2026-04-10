@@ -2,7 +2,7 @@ package Deitel.ChapterIV;
 
 import java.util.Scanner;
 
-public class ExCap4419 {
+public class ExChp4419 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double total = 0;

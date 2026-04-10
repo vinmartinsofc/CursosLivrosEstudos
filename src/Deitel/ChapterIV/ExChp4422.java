@@ -1,6 +1,6 @@
 package Deitel.ChapterIV;
 
-public class ExerciseChapter4222 {
+public class ExChp4422 {
     public static void main(String[] args) {
         int number = 1;
 

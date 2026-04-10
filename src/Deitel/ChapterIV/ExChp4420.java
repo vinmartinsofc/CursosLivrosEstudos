@@ -2,7 +2,7 @@ package Deitel.ChapterIV;
 
 import java.util.Scanner;
 
-public class ExCap4420 {
+public class ExChp4420 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String workerName;

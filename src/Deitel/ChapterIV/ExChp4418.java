@@ -2,7 +2,7 @@ package Deitel.ChapterIV;
 
 import java.util.Scanner;
 
-public class ExCap4418 {
+public class ExChp4418 {
     public static void main(String[] args) {
         int accountNumber;
         int beginningOfTheMonthBalance;
