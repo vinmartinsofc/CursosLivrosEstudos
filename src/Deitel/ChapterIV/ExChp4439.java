@@ -6,6 +6,7 @@ public class ExChp4439 {
 
         double rate = 0.35;
         double population = 214.2;
+        double populationDifference = 214.2;
         int yearNumber = 1;
 
         while (yearNumber < 76) {
@@ -14,13 +15,13 @@ public class ExChp4439 {
 
             System.out.printf("Pop rate = %.2f%n", population);
 
-            if (population > 214.2 * 2) {
-                System.out.println("In the year "+ yearNumber + " the population has duplicated its value:" + population);
+            if (yearNumber == 75) {
+                System.out.printf("%nEstimated Population size at the year 75: %.2f%n ", population);
+
+                System.out.printf("%n%s %.2f ", "Numeric increase: ", population - populationDifference);
             }
 
-            if (yearNumber == 75) {
-                System.out.printf("Estimated Population size at the year 75: %.2f%n ",population);
-            }
+            
 
 
             yearNumber++;
