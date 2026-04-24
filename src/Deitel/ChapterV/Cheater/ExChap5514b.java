@@ -1,4 +1,4 @@
-package Deitel.ChapterV;
+package Deitel.ChapterV.Cheater;
 
 public class ExChap5514b {
     public static void main(String[] args) {

@@ -1,16 +1,14 @@
-package Deitel.ChapterV;
+package Deitel.ChapterV.Cheater;
 
-public class ExChap5515 {
+public class ExChap5515c {
     public static void main(String[] args) {
 
-        for (int i = 0; i <= 10; i++) {
-            for (int j = 0; j < i; j++) {
+        for (int i = 10; i >= 1; i--) {
+            for (int j = 0; j <= i; j++) {
                 System.out.print("*");
-
             }
-
             System.out.println();
-
         }
+
     }
 }
