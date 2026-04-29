@@ -11,7 +11,6 @@ public class ExChap553 {
             count = count + 2;
         }
 
-
         System.out.println("Sum: " + sum);
     }
 }

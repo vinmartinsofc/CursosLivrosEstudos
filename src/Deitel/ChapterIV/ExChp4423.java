@@ -7,7 +7,7 @@ public class ExChp4423 {
 
         Scanner scanner = new Scanner(System.in);
         int number;
-        int count = Integer.MIN_VALUE;
+        int count = 0;
         int largest = Integer.MIN_VALUE;
         int secondOne = Integer.MIN_VALUE;
 
@@ -16,7 +16,6 @@ public class ExChp4423 {
             System.out.print("Enter the integer: ");
             number = scanner.nextInt();
 
-
             if (number > largest) {
                 secondOne = largest;
                 largest = number;
@@ -24,15 +23,13 @@ public class ExChp4423 {
                 secondOne = number;
             }
 
-            ++count;
+            count++;
         }
 
-        if (secondOne == Integer.MIN_VALUE) {
-            System.out.println("insuficient data");
-        } else {
-            System.out.println("Largest: " + largest);
-            System.out.println("Second One: " + secondOne);
-        }
+
+        System.out.println("Largest: " + largest);
+        System.out.println("Second One: " + secondOne);
+
     }
 
 }

@@ -29,7 +29,7 @@ public class ExChp4419 {
 
         if (itemCount > 0) {
             double percentage = total * 9 / 100;
-            System.out.printf("Total sold: %d, which was a total of %.2f this week.%n", itemCount, total);
+            System.out.printf("Total sold: %d, which is a total of %.2f this week.%n", itemCount, total);
             System.out.printf("Your commission is R$%d + %.2f = %.2f.%n", fixedCommission, percentage, fixedCommission + percentage);
         } else {
             System.out.println("Application closed by user");

@@ -1,6 +1,6 @@
 package Deitel.ChapterV;
 
-public class AutoPolicyDriver {
+public class AutoPolicyTest {
     public static void main(String[] args) {
 
         AutoPolicy policy1 = new AutoPolicy(11111111, "Toyota Camry", "NJ");

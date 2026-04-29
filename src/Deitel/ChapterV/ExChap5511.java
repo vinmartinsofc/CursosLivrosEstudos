@@ -26,7 +26,6 @@ public class ExChap5511 {
         if (minNumber == Integer.MAX_VALUE) {
             System.out.println("....");
         } else {
-
             System.out.println("Lowest: " + minNumber);
         }
         scanner.close();

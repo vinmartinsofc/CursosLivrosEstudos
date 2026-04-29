@@ -5,12 +5,12 @@ public class ExChap5513 {
         long result = 1;
 
 
-        for (int i = 1; i < 100; i++) {
+        for (int i = 1; i <= 20; i++) {
 
             result = i * result;
         }
 
-        System.out.printf("%n:%d", result);
+        System.out.printf("Factorial: %d", result);
 
     }
 }

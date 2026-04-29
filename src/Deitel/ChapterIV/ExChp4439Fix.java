@@ -4,7 +4,7 @@ package Deitel.ChapterIV;
 public class ExChp4439Fix {
     public static void main(String[] args) {
 
-        double rate = 0.0035;
+        double rate = 0.035;
         double population = 214.2;
         double populationDifference = population;
         int yearNumber = 0;

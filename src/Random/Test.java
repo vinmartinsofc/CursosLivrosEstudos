@@ -1,16 +1,23 @@
 package Random;
 
+import java.util.Scanner;
+
 public class Test {
     public static void main(String[] args) {
-        int x, y;
-        x = 5;
-        y = 0;
+        Scanner scanner = new Scanner(System.in);
 
-        while (x > 2) {
-            System.out.println(x);
-            y = y + x;
-            x = x - 1;
+        System.out.println("Aaaa");
+        int bbbbb = scanner.nextInt();
+
+        while (scanner.hasNext()) {
+
+            System.out.println("I entered: " + bbbbb);
+
+            System.out.println("Aaaa");
+             bbbbb = scanner.nextInt();
         }
+
+
 
 
     }
