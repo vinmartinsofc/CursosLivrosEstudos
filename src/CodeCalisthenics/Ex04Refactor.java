@@ -2,8 +2,9 @@ package CodeCalisthenics;
 
 import java.util.Scanner;
 
-public class Ex04 {
+public class Ex04Refactor {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         int menuOptions = 0;
 
@@ -17,7 +18,7 @@ public class Ex04 {
                 case 1: {
                     System.out.print("Integer: ");
                     inputNumber = scanner.nextInt();
-                    if (inputNumber < 0) {
+                    if (inputNumber % 2 > 0) {
                         System.out.println("Odd integer");
                     } else {
                         System.out.println("Even integer");
@@ -43,8 +44,8 @@ public class Ex04 {
                     inputNumber = scanner.nextInt();
                     int factorial = 1;
 
-                    for (int i = 1; i < inputNumber; inputNumber--) {
-                        factorial = inputNumber * factorial;
+                    for (int i = 1; i <= inputNumber; i++) {
+                        factorial *= i;
                     }
 
                     System.out.println("Factorial: " + factorial);
@@ -56,7 +57,6 @@ public class Ex04 {
                 default:
                     System.out.println("Invalid option.");
             }
-
         }
 
         scanner.close();

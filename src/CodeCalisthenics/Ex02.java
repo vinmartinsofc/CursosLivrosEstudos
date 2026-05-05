@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int total = 0, count = 0;
+        int sum = 0, count = 0;
         double avg;
 
         System.out.print("Enter the integer (-1 to quit): ");
@@ -13,10 +13,10 @@ public class Ex02 {
 
         while (hasEntered != -1) {
 
-            if (hasEntered < 0) {
-                System.out.println("Only positives allowed.");
+            if (hasEntered < 1) {
+                System.out.println("Input not allowed");
             } else {
-                total += hasEntered;
+                sum += hasEntered;
                 count += 1;
             }
 
@@ -27,8 +27,8 @@ public class Ex02 {
         if (count <= 0) {
             System.out.println("No integers entered.");
         } else {
-            avg = (double) total / count;
-            System.out.printf("%nTotal integers: %d%nSum: %d%nAvg: %.2f%n " , count, total, avg);
+            avg = (double) sum / count;
+            System.out.printf("%nTotal integers: %d%nSum: %d%nAvg: %.2f " , count, sum, avg);
         }
 
         scanner.close();
