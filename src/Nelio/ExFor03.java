@@ -11,6 +11,8 @@ public class ExFor03 {
 
             System.out.println(y);
 
+            System.out.println("String!");
+
         }
     }
 }
