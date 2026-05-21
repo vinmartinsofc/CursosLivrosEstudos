@@ -1,8 +1,8 @@
-package CodeRefiner;
+package CodeRefiner.Ex02;
 
 import java.util.Scanner;
 
-public class Ex02ClassGradeAnalysis {
+public class ClassGradeAnalysis {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int studentsCount = 0;

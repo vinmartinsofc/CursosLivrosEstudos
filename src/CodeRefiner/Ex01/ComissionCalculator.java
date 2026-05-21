@@ -1,8 +1,8 @@
-package CodeRefiner;
+package CodeRefiner.Ex01;
 
 import java.util.Scanner;
 
-public class Ex01ComissionCalculator {
+public class ComissionCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         final int BASE_PAY = 200;

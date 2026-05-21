@@ -6,15 +6,12 @@ public class ExChap5523 {
 
 
         if (!(x < 5) && !(y >= 7)) {
-            System.out.println("1");
+            System.out.println(true);
+        } else {
+            System.out.println(false);
         }
 
-        if ((x < 5) && (y >= 7)) {
 
-            System.out.println("2");
-
-
-        }
 
     }
 }

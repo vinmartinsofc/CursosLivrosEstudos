@@ -1,4 +1,6 @@
-package Deitel.ChapterV;
+package Skips;
+
+//Skipped
 
 public class ExChap5518 {
     public static void main(String[] args) {

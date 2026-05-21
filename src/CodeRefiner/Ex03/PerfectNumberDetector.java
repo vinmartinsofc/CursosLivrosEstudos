@@ -1,4 +1,4 @@
-package CodeRefiner;
+package CodeRefiner.Ex03;
 
 //Um número perfeito é igual à soma de seus divisores próprios.
 
@@ -6,7 +6,7 @@ package CodeRefiner;
 
 import java.util.Scanner;
 
-public class Ex03PerfectNumberDetector {
+public class PerfectNumberDetector {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int count = 1;
@@ -21,7 +21,6 @@ public class Ex03PerfectNumberDetector {
                 System.out.println("Divded by: " + count);
                 sum += count;
             }
-
 
             if (sum == choosenInteger) {
                 System.out.println("Match!");

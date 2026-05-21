@@ -1,6 +1,6 @@
-package Drops;
+package Skips;
 
-//Dropped
+//Skipped
 
 import java.util.Scanner;
 

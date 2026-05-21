@@ -1,6 +1,6 @@
-package Drops;
+package Skips;
 
-//Dropped
+//Skipped
 
 public class ExCH5515 {
     public static void main(String[] args) {

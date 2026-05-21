@@ -14,7 +14,7 @@ public class ExChap5524 {
             """;
 
 
-        System.out.println(show);
+        System.out.println(String.format("%-20s", show));
 
     }
 }

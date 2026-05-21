@@ -1,9 +1,9 @@
-package CodeRefiner;
+package CodeRefiner.Ex05;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class Ex05SecretNumber {
+public class SecretNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();

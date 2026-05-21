@@ -1,8 +1,8 @@
-package CodeRefiner;
+package CodeRefiner.Ex04;
 
 import java.util.Scanner;
 
-public class Ex04MenuSimulator {
+public class MenuSimulator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double initialBalance = 1000.0;
